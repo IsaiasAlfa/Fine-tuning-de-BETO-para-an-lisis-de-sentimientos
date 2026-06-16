@@ -1,0 +1,19 @@
+# Entorno virtual
+.venv/
+
+# Modelo guardado (puede pesar varios GB)
+model/
+checkpoints/
+
+# Cache de HuggingFace
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno (por si guardás tokens)
+.env
