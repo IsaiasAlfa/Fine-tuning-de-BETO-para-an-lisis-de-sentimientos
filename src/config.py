@@ -4,7 +4,7 @@ import torch
 
 # Modelo y dataset
 MODEL_NAME = "dccuchile/bert-base-spanish-wwm-uncased"
-DATASET_NAME = "lpsc-fiuba/melisa"
+DATASET_NAME = "mrinaldi/es_benchmark_binary"
 MAX_LEN = 128
 
 # Hiperparámetros de entrenamiento
