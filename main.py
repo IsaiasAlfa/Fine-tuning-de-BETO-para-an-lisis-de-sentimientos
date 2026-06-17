@@ -12,7 +12,7 @@ def main():
   print("Cargando modelo y tokenizador...")
   model, tokenizer = cargar_modelo()
 
-  print("Cargando dataset MELISA...")
+  print("Cargando dataset Bench...")
   loader_train, loader_val = obtener_dataloaders(tokenizer)
 
   print("Iniciando entrenamiento...")
